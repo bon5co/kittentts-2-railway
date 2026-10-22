@@ -1,0 +1,7 @@
+This Stellon Labs Model is licensed under the Stellon Labs Community License, Copyright (c) Stellon Labs Inc. All Rights Reserved.
+Powered by KittenML.
+
+This image contains the Apache-2.0 KittenTTS runtime wrapper only. The Kitten-TTS 2 weights are
+downloaded at first boot from https://huggingface.co/KittenML/kitten-tts-2 under
+https://huggingface.co/KittenML/kitten-tts-2/blob/main/LICENSE.md. Commercial use requires
+registration with Stellon Labs (info@stellonlabs.com).
