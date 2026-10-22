@@ -25,5 +25,5 @@ jobs:
           provenance: false
           push: true
           tags: |
-            ghcr.io/bon5co/kittentts-2-railway:0.2.0
+            ghcr.io/bon5co/kittentts-2-railway:0.2.1
             ghcr.io/bon5co/kittentts-2-railway:latest
