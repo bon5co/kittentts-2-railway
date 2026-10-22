@@ -20,7 +20,8 @@ COPY server.py NOTICE /app/
 
 # The model weights are NOT in this image. They are licensed under the Stellon Labs
 # Community License and are fetched from Hugging Face on first boot into the volume.
-ENV KITTEN_REVISION=1f00fee525c7b2e30bbe9ca9ba67529734fce9c9 \
+ENV MAX_INPUT_CHARS=300 \
+    KITTEN_REVISION=1f00fee525c7b2e30bbe9ca9ba67529734fce9c9 \
     KITTEN_CACHE_DIR=/data/cache \
     PYTHONUNBUFFERED=1 \
     PORT=8080
